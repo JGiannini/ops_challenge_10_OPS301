@@ -15,7 +15,7 @@ def create_file():
     groovy_file = open("groovy_gorilla.txt", "w+") #w means write to file, + means read and write
 
     #For loop with range of 3, writes to file then %d displays integer value each on a new line 
-    groovy_gorillas = 10
+    groovy_gorillas = 3
     groovy_file.write("There are " + str(groovy_gorillas) + " Groovy Gorillas in here: \n")
     for i in range(groovy_gorillas):
         groovy_file.write("Groovy Gorilla %d\n" % (i+1))
