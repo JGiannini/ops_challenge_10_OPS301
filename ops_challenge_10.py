@@ -14,10 +14,10 @@ def create_file():
     #Open function takes two arguments: file to open, string for permissions/operations to do to file
     groovy_file = open("groovy_gorilla.txt", "w+") #w means write to file, + means read and write
 
-    groovy_file.write("There are three Groovy Gorillas in here: \n")
-
-    #For loop with range of 3, writes to file "this is line number" then %d to display integer value each on a new line 
-    for i in range(3):
+    #For loop with range of 3, writes to file then %d displays integer value each on a new line 
+    groovy_gorillas = 10
+    groovy_file.write("There are " + str(groovy_gorillas) + " Groovy Gorillas in here: \n")
+    for i in range(groovy_gorillas):
         groovy_file.write("Groovy Gorilla %d\n" % (i+1))
 
     #Then we close the instance of the file because changes made to a file may not show until it's closed.
