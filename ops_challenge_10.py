@@ -5,8 +5,8 @@
 # Objectives: Using file handling commands, create a Python script that does the following: 
 # [X] Creates a new .txt file
 # [X] Appends three lines
-# [] Prints to the screen the first line
-# [] Then deletes the .txt file
+# [X] Prints to the screen the first line
+# [X] Then deletes the .txt file
 
 import os #for deletion
 
